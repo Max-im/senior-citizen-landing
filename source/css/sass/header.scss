@@ -1,0 +1,72 @@
+.header{
+  background: rgba(255,255,255,.65);
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  &__nav{
+    text-align: right;
+  }
+  &__mainMenu{
+    display: block;
+
+  }
+  &__sendwich{
+    text-transform: uppercase;
+    font-size: 13px;
+    color: #4a526a;
+  }
+}
+
+
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+
+
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+ 
+
+}
+
+
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+.header{
+  &__mainMenu{
+    display: inline-block;
+  }
+  &__sendwich{
+    display: none;
+  }
+}
+
+
+}
+
+
+
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+
+
+
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+
+
+}

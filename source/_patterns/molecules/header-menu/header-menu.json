@@ -1,0 +1,10 @@
+{
+  "mainMenu": {
+    "list": [
+      {"name": "einloggen", "link": "#"}, 
+      {"name": "registrieren", "link": "#" }, 
+      {"name": "Trauerseite gestalten", "link": "#" }
+    ] 
+  }
+  
+}

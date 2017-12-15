@@ -1,0 +1,16 @@
+.about{
+  &__img{
+    width: 320px;
+    height: 320px;
+    border: 9px solid #fff;
+    box-shadow: 3px 3px 15px 9px rgba(0,0,0,.51);
+    display: block;
+  }  
+  &__mainTitle{
+    color: #2e3a54;
+    font-size: 62px;
+  }
+  &__icon{
+
+  }
+}
