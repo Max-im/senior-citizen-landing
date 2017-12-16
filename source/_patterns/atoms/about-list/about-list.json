@@ -1,0 +1,17 @@
+{
+  "about-list": [
+    { 
+      "text": "23.12.1985 <span class='about__listModify'> - Berlin</span>", 
+      "icon": "../../../images/icons/sun.png"
+    }, 
+    { 
+      "text": "10.11.2015 <span class='about__listModify'> - Muhlheim</span>", 
+      "icon": "../../../images/icons/month.png" 
+    }, 
+    {
+      "xlClass": "about__listModify_rev",
+      "text": "Hamburg", 
+      "icon": "../../../images/icons/location.png" 
+    } 
+  ] 
+}

@@ -1,16 +1,134 @@
 .about{
   &__img{
-    width: 320px;
-    height: 320px;
+    width: 430px;
+    height: 435px;
+    box-sizing: border-box;
     border: 9px solid #fff;
-    box-shadow: 3px 3px 15px 9px rgba(0,0,0,.51);
+    box-shadow: 3px 3px 15px 3px rgba(42,46,57,.51);
     display: block;
+    margin: 0 auto;
+  }
+  &__content{
+    margin: 45px 0 0 0;
   }  
+  &__mainTitle{
+    color: #2e3a54;
+    font-size: 48px;
+  }
+  &__list{
+    color: #2e3a54;
+    margin: 20px 0 0 0;
+  }
+  &__listItem{
+    font-size: 22px;
+    padding: 25px 0;
+    border-top: 1px solid #cad0dc;
+  }
+  &__listIcon{
+    margin:  0 15px  0 0;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  &__listText{
+    display: inline-block;
+    vertical-align: middle; 
+  }
+  &__listModify{
+    &_rev{
+      display: none;
+    }
+  }
+
+  
+}
+
+
+
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+
+
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+ 
+
+}
+
+
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+
+
+
+}
+
+
+
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+.about{
+  &__img{
+    width: 340px;
+    height: 340px;
+    margin: 0;
+    display: inline-block;
+    vertical-align: middle;
+  }  
+  &__content{
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0px 0 0 55px;
+  }
   &__mainTitle{
     color: #2e3a54;
     font-size: 62px;
   }
-  &__icon{
-
+  &__listItem{
+    font-size: 18px;
+    display: inline-block;
+    padding: 0;
+    margin: 0 30px 0 0;
+    vertical-align: top;
+    border-top: 0px solid #cad0dc;
   }
+  &__listIcon{
+    margin:  0 5px  0 0;
+  }
+  &__listModify{
+    display: none;
+    &_rev{
+      display: inline-block;
+    }
+  }
+  &__contentWrap{
+    padding: 0 80px 0 0;
+  }
+  
+}
+
+
+
+}
+
+
+
+
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+
+
 }

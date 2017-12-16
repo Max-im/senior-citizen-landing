@@ -113,14 +113,77 @@ body{
   font-family: 'Rubik', sans-serif;
 }
 
+ul, li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
 
 .container{
   width: 100%;
-  max-width: 1170px;
-  min-width: 320px;
+  max-width: 1325px;
+  min-width: 480px;
   margin: 0 auto;
+  box-sizing: border-box;
+  padding: 0 15px;
 }
 
 .hide{
   display: none !important;
+}
+
+
+body{
+  /*background: #333;*/
+}
+
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+
+
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+ 
+
+}
+
+
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+.container{
+  padding: 0;
+}
+
+
+}
+
+
+
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+
+
+
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+
+
 }
