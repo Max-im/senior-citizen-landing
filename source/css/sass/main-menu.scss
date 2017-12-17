@@ -1,9 +1,14 @@
 .mainMenu{
+  position: absolute;
+  width: 100%;
+  background: rgba(255,255,255,.65);
+  z-index: 100;
   &__item{
     display: block;
     position: relative;
     text-align: center;
-    
+    line-height: 14px;
+    margin: 18px 0;    
   }
   &__link{
     color: #4a526a;
@@ -39,6 +44,8 @@
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
   .mainMenu{
+    position: relative;
+    background: none;
     &__item{
       display: inline-block;
       &:after{

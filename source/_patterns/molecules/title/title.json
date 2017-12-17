@@ -1,0 +1,12 @@
+{
+  "img": {
+    "alt": "icon",
+    "src": "../../../images/icons/talk.png",
+    "class": "title__icon"
+  },
+  "text":{
+    "tag": "h3",
+    "class": "title__text",
+    "text": "Wondervolles zitai / nachraf"
+  }
+}
