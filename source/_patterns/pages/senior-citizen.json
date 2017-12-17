@@ -41,42 +41,109 @@
           }
         ] 
       }
-
     },
     "about-org-text": {
+      "img": {
+        "alt": "icon",
+        "src": "../../../images/icons/talk.png",
+        "class": "title__icon"
+      },
+      "text":{
+        "tag": "h3",
+        "class": "title__text",
+        "text": "Wondervolles zitai / nachraf"
+      }
+    },
+
+    "text": {
+      "tag": "p",
+      "class": "about__parag",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo enim molestias, doloremque laborum officiis corporis, voluptatem saepe similique a. Accusantium placeat qui, ab cum rerum dolorum minus exercitationem nesciunt nihil!"
+    },
+
+    "text2": {
+      "tag": "p",
+      "class": "about__parag",
+      "text": " Accusantium placeat qui, ab cum rerum dolorum minus exercitationem nesciunt nihil!"
+    },
+
+    "text3": {
+      "tag": "p",
+      "class": "about__parag",
+      "text": " Accusantium placeat qui, ab cum rerum dolorum minus exercitationem nesciunt nihil!"
+    },
+
+    "mehr": {
+      "alt": "icon",
+      "src": "../../../images/icons/mehrIcon.png",
+      "tag": "span",
+      "text": "mehr",
+      "class": "about__mehrItem mehr"
+    } 
+  },
+  "photo-page": {
+  "photo-org": {
     "img": {
       "alt": "icon",
-      "src": "../../../images/icons/talk.png",
+      "src": "../../../images/icons/photoIcon.png",
       "class": "title__icon"
     },
     "text":{
       "tag": "h3",
       "class": "title__text",
-      "text": "Wondervolles zitai / nachraf"
-    }
+      "text": "erinnerungen"
+    },
+    "list": [
+      {
+        "alt": "photoItem",
+        "src": "../../../images/photos/photoItem1.jpg",
+        "class": "photoBlock__img"
+      },
+      {
+        "alt": "photoItem",
+        "src": "../../../images/photos/photoItem2.jpg",
+        "class": "photoBlock__img"
+      },
+      {
+        "alt": "photoItem",
+        "src": "../../../images/photos/photoItem3.jpg",
+        "class": "photoBlock__img"
+      },
+      {
+        "alt": "photoItem",
+        "src": "../../../images/photos/photoItem4.jpg",
+        "class": "photoBlock__img"
+      },
+      {
+        "alt": "photoItem",
+        "src": "../../../images/photos/photoItem5.jpg",
+        "class": "photoBlock__img"
+      },
+      {
+        "alt": "photoItem",
+        "src": "../../../images/photos/photoItem6.jpg",
+        "class": "photoBlock__img"
+      },
+      {
+        "alt": "photoItem",
+        "src": "../../../images/photos/photoItem7.jpg",
+        "class": "photoBlock__img mehrTarget"
+      },
+      {
+        "alt": "photoItem",
+        "src": "../../../images/photos/photoItem8.jpg",
+        "class": "photoBlock__img mehrTarget"
+      },
+    ]
   },
-
-  "text": {
-    "tag": "p",
-    "class": "about__parag",
-    "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo enim molestias, doloremque laborum officiis corporis, voluptatem saepe similique a. Accusantium placeat qui, ab cum rerum dolorum minus exercitationem nesciunt nihil!"
-  },
-
-  "text2": {
-    "tag": "p",
-    "class": "about__parag",
-    "text": " Accusantium placeat qui, ab cum rerum dolorum minus exercitationem nesciunt nihil!"
-  },
-
   "mehr": {
     "alt": "icon",
     "src": "../../../images/icons/mehrIcon.png",
     "tag": "span",
     "text": "mehr",
-    "class": "about__mehrItem"
+    "class": "about__mehrItem mehr"
   }
-    
-  }
+}
 
 
 

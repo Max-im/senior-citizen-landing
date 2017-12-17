@@ -56,11 +56,17 @@
     "text": " Accusantium placeat qui, ab cum rerum dolorum minus exercitationem nesciunt nihil!"
   },
 
+  "text3": {
+    "tag": "p",
+    "class": "about__parag",
+    "text": " Accusantium placeat qui, ab cum rerum dolorum minus exercitationem nesciunt nihil!"
+  },
+
   "mehr": {
     "alt": "icon",
     "src": "../../../images/icons/mehrIcon.png",
     "tag": "span",
     "text": "mehr",
-    "class": "about__mehrItem"
+    "class": "about__mehrItem mehr"
   }
 }

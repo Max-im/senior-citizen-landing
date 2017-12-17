@@ -124,13 +124,20 @@ ul, li {
   max-width: 1325px;
   min-width: 480px;
   margin: 0 auto;
-  box-sizing: border-box;
 }
 
 .hide{
   display: none !important;
 }
 
+.inner{
+  padding: 0 25px;
+  width: 100%;
+  max-width: 1160px;
+  min-width: 480px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
 
 body{
   background-image: url('../images/photos/bg.jpg');
@@ -171,8 +178,8 @@ body{
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
-.container{
-  padding: 0;
+.inner{
+  padding: 0 25px;
 }
 
 }
@@ -183,6 +190,9 @@ body{
 
  /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
+.inner{
+  padding: 0px;
+}
 
 
 

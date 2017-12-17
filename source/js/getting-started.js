@@ -8,6 +8,11 @@ window.addEventListener('resize', e => {
   if( width > 768 ) {
     document.querySelector('.mainMenu')
       .classList.remove('hide');
+
+    document.querySelectorAll('.mehrTarget')
+      .forEach(item => {
+        item.classList.remove('hide');
+      });
   }
 })
 
@@ -15,6 +20,20 @@ window.addEventListener('resize', e => {
 document.querySelector('.header__sendwich')
   .addEventListener('click', mainMenuToggle);
 
+
+document.querySelectorAll('.mehr')
+  .forEach(item => {
+    item.addEventListener('click', toggleMehr);
+  });
+
+
+function toggleMehr(e) {
+  e.target.closest('.container')
+    .querySelectorAll('.mehrTarget')
+    .forEach(item => {
+      item.classList.toggle('hide');
+    });
+}
 
 
 function mainMenuToggle(e) {

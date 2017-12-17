@@ -1,0 +1,63 @@
+{
+  "photo-org": {
+    "img": {
+      "alt": "icon",
+      "src": "../../../images/icons/photoIcon.png",
+      "class": "title__icon"
+    },
+    "text":{
+      "tag": "h3",
+      "class": "title__text",
+      "text": "erinnerungen"
+    },
+    "list": [
+      {
+        "alt": "photoItem",
+        "src": "../../../images/photos/photoItem1.jpg",
+        "class": "photoBlock__img"
+      },
+      {
+        "alt": "photoItem",
+        "src": "../../../images/photos/photoItem2.jpg",
+        "class": "photoBlock__img"
+      },
+      {
+        "alt": "photoItem",
+        "src": "../../../images/photos/photoItem3.jpg",
+        "class": "photoBlock__img"
+      },
+      {
+        "alt": "photoItem",
+        "src": "../../../images/photos/photoItem4.jpg",
+        "class": "photoBlock__img"
+      },
+      {
+        "alt": "photoItem",
+        "src": "../../../images/photos/photoItem5.jpg",
+        "class": "photoBlock__img"
+      },
+      {
+        "alt": "photoItem",
+        "src": "../../../images/photos/photoItem6.jpg",
+        "class": "photoBlock__img"
+      },
+      {
+        "alt": "photoItem",
+        "src": "../../../images/photos/photoItem7.jpg",
+        "class": "photoBlock__img mehrTarget"
+      },
+      {
+        "alt": "photoItem",
+        "src": "../../../images/photos/photoItem8.jpg",
+        "class": "photoBlock__img mehrTarget"
+      },
+    ]
+  },
+  "mehr": {
+    "alt": "icon",
+    "src": "../../../images/icons/mehrIcon.png",
+    "tag": "span",
+    "text": "mehr",
+    "class": "about__mehrItem mehr"
+  }
+}
