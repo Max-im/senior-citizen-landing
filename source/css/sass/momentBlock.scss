@@ -1,0 +1,146 @@
+.moment{
+  margin: 60px 0 0 0;
+  padding: 65px 0 45px 0;
+  background: #fff;
+  &__img{
+    width: 430px;
+    height: 205px;
+    display: block;
+    margin: 25px auto 0 auto;
+  }
+  &__title{
+    color: #2e3a54;
+    font-size: 25px;
+    margin: 30px 0 0 0;
+    letter-spacing: -.5px;
+    width: 100%;
+    padding: 0 50px;
+    box-sizing: border-box;
+  }
+  &__text{
+    margin: 30px 0 0 0;
+    font-size: 21px;
+    color: #2e3a54;
+    line-height: 25px;
+  }
+  &__btnWrap{
+    display: none;
+  }
+}
+
+.slick-arrow{
+  background: none;
+  border: none;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #2e3a54;
+  color: #2e3a54;
+  font-size: 30px;
+  line-height: 30px;
+  position: absolute;
+  cursor: pointer;
+  text-align: center;
+  z-index: 1100;
+  top: 270px;
+}
+
+.slick-prev{
+  left: 0;
+}
+
+.slick-next{
+  right: 0;
+}
+
+
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+
+
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+ 
+
+}
+
+
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+  
+  .moment{
+    margin: 60px 0 45px 0;
+    padding: 65px 0 45px 0;
+    &__carousel{
+      margin: 30px 0 0 0;
+    }
+    &__imgWrap{
+      width: 255px;
+      height: 205px;
+      display: inline-block;
+      vertical-align: top;
+      margin: 0 35px 0 0;
+    }
+    &__img{
+      width: 100%;
+      height: 100%;
+      margin: 0;
+    }
+    &__content{
+      display: inline-block;
+      vertical-align: top;
+      width: calc(100% - 300px);
+    }
+    &__title{
+      margin: 0px;
+      padding: 0;
+    }
+    &__text{
+      margin: 30px 0 0 0;
+    }
+      &__btnWrap{
+      margin: 60px 0 0 0;
+      display: block;
+    }
+  }
+
+}
+
+
+
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+
+
+
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+
+.slick-arrow{
+  top: 80px;
+}
+.slick-prev{
+  left: -50px;
+}
+
+.slick-next{
+  right: -50px;
+}
+
+}

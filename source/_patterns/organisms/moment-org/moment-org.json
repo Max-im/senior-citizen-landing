@@ -1,0 +1,128 @@
+{
+  "moment-org": {
+    "img": {
+      "alt": "icon",
+      "src": "../../../images/icons/starIcon.png",
+      "class": "title__icon"
+    },
+    "text":{
+      "tag": "h3",
+      "class": "title__text",
+      "text": "unsere schonsten momente"
+    }
+  },
+  "carousel": [
+    {
+      "alt": "moment",
+      "src": "../../../images/photos/moment.jpg",
+      "class": "moment__img",
+      "title":{
+        "tag": "h4",
+        "text": "Weihnachtssessen bei Oma mit allen Kindern wow und so",
+        "class": "moment__title"
+      },
+      "text":{
+        "tag": "p",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt pariatur exercitationem voluptas quidem tempore numquam magnam, saepe in, labore laudantium perspiciatis veritatis harum laboriosam consequatur vitae, non commodi eius tempora!",
+        "class": "moment__text"
+      },
+      "text2":{
+        "tag": "p",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt pariatur exercitationem voluptas quidem tempore numquam magnam, saepe in, labore laudantium perspiciatis veritatis harum laboriosam consequatur vitae, non commodi eius tempora!",
+        "class": "moment__text hide mehrTarget"
+      }
+    },
+    {
+      "alt": "moment",
+      "src": "../../../images/photos/moment.jpg",
+      "class": "moment__img",
+      "title":{
+        "tag": "h4",
+        "text": "Weihnachtssessen bei Oma mit allen Kindern wow und so",
+        "class": "moment__title"
+      },
+      "text":{
+        "tag": "p",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt pariatur exercitationem voluptas quidem tempore numquam magnam, saepe in, labore laudantium perspiciatis veritatis harum laboriosam consequatur vitae, non commodi eius tempora!",
+        "class": "moment__text"
+      },
+      "text2":{
+        "tag": "p",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt pariatur exercitationem voluptas quidem tempore numquam magnam, saepe in, labore laudantium perspiciatis veritatis harum laboriosam consequatur vitae, non commodi eius tempora!",
+        "class": "moment__text hide mehrTarget"
+      }
+    },
+    {
+      "alt": "moment",
+      "src": "../../../images/photos/moment.jpg",
+      "class": "moment__img",
+      "title":{
+        "tag": "h4",
+        "text": "Weihnachtssessen bei Oma mit allen Kindern wow und so",
+        "class": "moment__title"
+      },
+      "text":{
+        "tag": "p",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt pariatur exercitationem voluptas quidem tempore numquam magnam, saepe in, labore laudantium perspiciatis veritatis harum laboriosam consequatur vitae, non commodi eius tempora!",
+        "class": "moment__text"
+      },
+      "text2":{
+        "tag": "p",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt pariatur exercitationem voluptas quidem tempore numquam magnam, saepe in, labore laudantium perspiciatis veritatis harum laboriosam consequatur vitae, non commodi eius tempora!",
+        "class": "moment__text hide mehrTarget"
+      }
+    },
+    {
+      "alt": "moment",
+      "src": "../../../images/photos/moment.jpg",
+      "class": "moment__img",
+      "title":{
+        "tag": "h4",
+        "text": "Weihnachtssessen bei Oma mit allen Kindern wow und so",
+        "class": "moment__title"
+      },
+      "text":{
+        "tag": "p",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt pariatur exercitationem voluptas quidem tempore numquam magnam, saepe in, labore laudantium perspiciatis veritatis harum laboriosam consequatur vitae, non commodi eius tempora!",
+        "class": "moment__text"
+      },
+      "text2":{
+        "tag": "p",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt pariatur exercitationem voluptas quidem tempore numquam magnam, saepe in, labore laudantium perspiciatis veritatis harum laboriosam consequatur vitae, non commodi eius tempora!",
+        "class": "moment__text hide mehrTarget"
+      }
+    },
+    {
+      "alt": "moment",
+      "src": "../../../images/photos/moment.jpg",
+      "class": "moment__img",
+      "title":{
+        "tag": "h4",
+        "text": "Weihnachtssessen bei Oma mit allen Kindern wow und so",
+        "class": "moment__title"
+      },
+      "text":{
+        "tag": "p",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt pariatur exercitationem voluptas quidem tempore numquam magnam, saepe in, labore laudantium perspiciatis veritatis harum laboriosam consequatur vitae, non commodi eius tempora!",
+        "class": "moment__text"
+      },
+      "text2":{
+        "tag": "p",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt pariatur exercitationem voluptas quidem tempore numquam magnam, saepe in, labore laudantium perspiciatis veritatis harum laboriosam consequatur vitae, non commodi eius tempora!",
+        "class": "moment__text hide mehrTarget"
+      }
+    }
+  ],
+   "mehr": {
+    "alt": "icon",
+    "src": "../../../images/icons/mehrIcon.png",
+    "tag": "span",
+    "text": "mehr",
+    "class": "about__mehrItem mehr"
+  },
+  "btn": {
+    "tag": "button",
+    "text": "einen moment beschriben",
+    "class": "btn moment__btn"
+  }
+}

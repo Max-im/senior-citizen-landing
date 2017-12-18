@@ -1,8 +1,10 @@
-console.info("Welcome to Pattern Library: Webpack Edition");
-console.info("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
-console.info("Place any generic javascript files in the ./source/js folder, and webpack will bundle it up for you.");
+import $ from 'jquery';
+import slick from 'slick-carousel';
 
-window.addEventListener('resize', e => {
+window.addEventListener('resize', e => resizeWindow(e));
+
+
+function resizeWindow(e){
   const width = window.innerWidth;
 
   if( width > 768 ) {
@@ -14,8 +16,9 @@ window.addEventListener('resize', e => {
         item.classList.remove('hide');
       });
   }
-})
+}
 
+resizeWindow();
 
 document.querySelector('.header__sendwich')
   .addEventListener('click', mainMenuToggle);
@@ -40,3 +43,11 @@ function mainMenuToggle(e) {
   document.querySelector('.mainMenu')
     .classList.toggle('hide');
 }
+
+
+
+$('.moment__carousel').slick({
+  prevArrow: '<span class="slick-prev">&#60;</span>',
+  nextArrow: '<span class="slick-next">&#62;</span>'
+});
+
