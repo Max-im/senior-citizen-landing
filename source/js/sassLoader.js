@@ -5,3 +5,4 @@ import '../css/sass/main-menu.scss';
 import '../css/sass/aboutBlock.scss';
 import '../css/sass/photoBlock.scss';
 import '../css/sass/momentBlock.scss';
+import '../css/sass/flowersBlock.scss';

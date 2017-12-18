@@ -271,6 +271,64 @@
       "text": "einen moment beschriben",
       "class": "btn moment__btn"
     }
+  },
+  "flowers-page": {
+    "title-org": {
+      "img": {
+        "alt": "icon",
+        "src": "../../../images/icons/flowerIcon.png",
+        "class": "title__icon"
+      },
+      "text":{
+        "tag": "h3",
+        "class": "title__text",
+        "text": "Blumen ablegen"
+      }
+    },
+    "flowers-list": [
+      {
+        "img": {
+          "alt": "flower",
+          "src": "../../../images/photos/flower1.jpg",
+          "class": "flowers__img"
+        },
+        "list": [
+          {"title": "23.12.2016", "text": "Du warst mir wichtig. Ich vermiche dich"},
+          {"title": "02.03.2017", "text": "Ich vermiche dich"},
+          {"title": "12.10.2017", "text": "Lieber Opi, Gott hat dich zu den Engel geholt und du schaust jetzt auf mich runter."}, 
+          {"title": "12.10.2017", "text": "Lieber Opi, Gott hat dich zu den Engel geholt und du schaust jetzt auf mich runter."} 
+        ],
+        "btn": "rosen ablegen"
+      },
+      {
+        "img": {
+          "alt": "flower",
+          "src": "../../../images/photos/flower2.jpg",
+          "class": "flowers__img"
+        },
+        "list": [
+          {"title": "23.12.2016", "text": "Du warst mir wichtig. Ich vermiche dich"},
+          {"title": "02.03.2017", "text": "Ich vermiche dich"},
+          {"title": "12.10.2017", "text": "Lieber Opi, Gott hat dich zu den Engel geholt und du schaust jetzt auf mich runter."}, 
+          {"title": "12.10.2017", "text": "Lieber Opi, Gott hat dich zu den Engel geholt und du schaust jetzt auf mich runter."} 
+        ],
+        "btn": "lielien ablegen"
+      },
+      {
+        "img": {
+          "alt": "flower",
+          "src": "../../../images/photos/flower3.jpg",
+          "class": "flowers__img"
+        },
+        "list": [
+          {"title": "23.12.2016", "text": "Du warst mir wichtig. Ich vermiche dich"},
+          {"title": "02.03.2017", "text": "Ich vermiche dich"},
+          {"title": "12.10.2017", "text": "Lieber Opi, Gott hat dich zu den Engel geholt und du schaust jetzt auf mich runter."}, 
+          {"title": "12.10.2017", "text": "Lieber Opi, Gott hat dich zu den Engel geholt und du schaust jetzt auf mich runter."} 
+        ],
+        "btn": "vergissmeinnicht ablegen"
+      }
+    ] 
   }
 
 
