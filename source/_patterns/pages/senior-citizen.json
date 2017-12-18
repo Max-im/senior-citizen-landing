@@ -329,6 +329,32 @@
         "btn": "vergissmeinnicht ablegen"
       }
     ] 
+  },
+  "mail-page": {
+    "mail-title": {
+      "img": {
+        "alt": "icon",
+        "src": "../../../images/icons/heartIcon.png",
+        "class": "title__icon"
+      },
+      "text":{
+        "tag": "h3",
+        "class": "title__text",
+        "text": "Jetzt brauchte ich dich"
+      }
+    },
+    "mail-icon": {
+      "alt": "envelop",
+      "src": "../../../images/icons/envelopIcon.png",
+      "class": "mail__img"
+    },
+    "mail-btn": {
+      "btn": {
+        "tag": "button",
+        "text": "deine gedanken an Max schicken",
+        "class": "btn mail__btn"
+      }
+    }
   }
 
 
