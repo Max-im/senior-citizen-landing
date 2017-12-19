@@ -8,3 +8,4 @@ import '../css/sass/momentBlock.scss';
 import '../css/sass/flowersBlock.scss';
 import '../css/sass/mailBlock.scss';
 import '../css/sass/footer.scss';
+import '../css/sass/footerBottom.scss';

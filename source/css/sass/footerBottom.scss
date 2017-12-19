@@ -1,0 +1,79 @@
+.footerBottom{
+  margin: 40px 0 0 0;
+  padding: 40px 0 45px 0;
+  background: #fff;
+  &__logoImg{
+    margin: 0 0 30px 0;
+  }
+  &__text{
+    font-size: 19px;
+    text-transform: uppercase;
+    color: #2e3a54;
+    letter-spacing: -.5px;
+    &_author{
+      margin: 15px 0 0 0;
+      font-weight: 500;
+    }
+  }
+}
+
+
+
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+
+
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+ 
+
+}
+
+
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+.footerBottom{
+  margin: 0px;
+  padding: 40px 0 30px 0;
+  &__logoImg{
+    margin: 0 40px 0 0;
+    display: inline-block;
+    vertical-align: bottom;
+  }
+  &__textWrap{
+    display: inline-block;
+    vertical-align: bottom;
+  }
+}
+
+
+}
+
+
+
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+
+
+
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+
+
+}
