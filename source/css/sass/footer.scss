@@ -69,6 +69,7 @@
     padding: 10px 0;
     text-align: center;
     margin: 0 0 15px 0;
+    cursor: pointer;
     &:last-child{
       margin: 0;
     }
@@ -138,7 +139,49 @@
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
-  
+.footer{
+  padding: 55px 0 35px 0;
+  font-size: 0;
+  &__logoWrap{
+    display: inline-block;
+    vertical-align: top;
+    width: 40%;
+  }
+  &__logo{
+    margin: 0 20px 0 0;
+    width: 80px;
+  }
+  &__logoText{
+    font-size: 25px;
+  }
+
+  &__socWrap{
+    display: inline-block;
+    vertical-align: top;
+    margin: 0px 0 0 0;
+    width: 60%;
+  }
+  &__socItem{
+    width: 50%;
+    display: inline-block;
+  }
+
+  &__btnWrap{
+    margin: 35px 0 0 0;
+    width: 60%;
+  }
+  &__btnItem{
+    padding: 0 10px;
+    height: 40px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    margin: 0 0 15px 0;
+  }
+  &__btnText{
+    line-height: 40px;
+  }
+}
 
 
 }
@@ -148,6 +191,30 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
+.footer{
+  &__logoWrap{
+    width: 30%;
+  }
+
+  &__socWrap{
+    display: inline-block;
+    vertical-align: top;
+    margin: 0px 0 0 0;
+    width: 25%;
+  }
+  &__socItem{
+    width: 100%;
+    margin: 0 0 20px 0;
+    display: block;
+  }
+
+  &__btnWrap{
+    display: inline-block;
+    vertical-align: top;
+    margin: 0;
+    width: 45%;
+  }
+}
 
 }
 
@@ -157,6 +224,21 @@
 
  /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
+.footer{
+  &__logoWrap{
+    width: 40%;
+  }
+
+  &__socWrap{
+    width: 25%;
+  }
+  &__socItem{
+    width: 80%;
+  }
+  &__btnWrap{
+    width: 35%;
+  }
+}
 
 
 

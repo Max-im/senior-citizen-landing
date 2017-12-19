@@ -355,6 +355,81 @@
         "class": "btn mail__btn"
       }
     }
+  },
+  "footer": {
+    "logo": {
+      "logo-img": {
+        "alt": "logo",
+        "src": "../../../images/icons/logoWorld.png",
+        "class": "footer__logo"
+      },
+      "logo-text": {
+        "tag": "h3",
+        "text": "Trauerseite <span class='footer__logoInnerText'>logo</span>",
+        "class": "footer__logoText"
+      }
+    },
+    "soc": {
+      "list": [
+        {
+          "href": "#",
+          "src": "../../../images/icons/soc-fb.png",
+          "alt": "fb",
+          "wrapClass": "footer__socBtnWrap",
+          "imgClass": "footer__socImg",
+          "text": {
+            "tag": "p",
+            "text": "auf facebook teilen",
+            "class": "footer__socText"
+          }
+        },
+        {
+          "href": "#",
+          "src": "../../../images/icons/soc-mail.png",
+          "alt": "mail",
+          "wrapClass": "footer__socBtnWrap",
+          "imgClass": "footer__socImg",
+          "text": {
+            "tag": "p",
+            "text": "per e-mail teilen",
+            "class": "footer__socText"
+          }
+        }
+      ]
+    },
+    "btn-list": {
+      "list": [
+        {
+          "alt": "icon",
+          "src": "../../../images/icons/penBtn.png",
+          "imgClass": "footer__btnImg",
+          "textClass": "footer__btnText",
+          "text": "Selbst eine Trauerseite gestalten"
+        },
+        {
+          "alt": "icon",
+          "src": "../../../images/icons/envBtn.png",
+          "imgClass": "footer__btnImg",
+          "textClass": "footer__btnText",
+          "text": "kontakt zum verfasser aufnehmen"
+        },
+        {
+          "alt": "icon",
+          "src": "../../../images/icons/flagBtn.png",
+          "imgClass": "footer__btnImg",
+          "textClass": "footer__btnText",
+          "text": "missbrauch melden"
+        }
+      ]
+    },
+    "menu": [
+      {"menuText": "Impressum", "link": "#"}, 
+      {"menuText": "Hilfe & Kontakt", "link": "#" }, 
+      {"menuText": "Datenschutz", "link": "#" },
+      {"menuText": "Nutzungsbedingungen", "link": "#" },
+      {"menuText": "AGB Widerrufsbelehrung", "link": "#" },
+      {"menuText": "Quellennachweis", "link": "#" }
+    ] 
   }
 
 
