@@ -1,0 +1,28 @@
+{
+  "list": [
+    {
+      "href": "#",
+      "src": "../../../images/icons/soc-fb.png",
+      "alt": "fb",
+      "wrapClass": "footer__socBtnWrap",
+      "imgClass": "footer__socImg",
+      "text": {
+        "tag": "p",
+        "text": "auf facebook teilen",
+        "class": "footer__socText"
+      }
+    },
+    {
+      "href": "#",
+      "src": "../../../images/icons/soc-mail.png",
+      "alt": "mail",
+      "wrapClass": "footer__socBtnWrap",
+      "imgClass": "footer__socImg",
+      "text": {
+        "tag": "p",
+        "text": "per e-mail teilen",
+        "class": "footer__socText"
+      }
+    }
+  ]
+}

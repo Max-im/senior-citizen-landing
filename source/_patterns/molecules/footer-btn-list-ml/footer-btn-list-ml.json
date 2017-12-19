@@ -1,0 +1,25 @@
+{
+  "list": [
+    {
+      "alt": "icon",
+      "src": "../../../images/icons/penBtn.png",
+      "imgClass": "footer__btnImg",
+      "textClass": "footer__btnText",
+      "text": "Selbst eine Trauerseite gestalten"
+    },
+    {
+      "alt": "icon",
+      "src": "../../../images/icons/envBtn.png",
+      "imgClass": "footer__btnImg",
+      "textClass": "footer__btnText",
+      "text": "kontakt zum verfasser aufnehmen"
+    },
+    {
+      "alt": "icon",
+      "src": "../../../images/icons/flagBtn.png",
+      "imgClass": "footer__btnImg",
+      "textClass": "footer__btnText",
+      "text": "missbrauch melden"
+    }
+  ]
+}
