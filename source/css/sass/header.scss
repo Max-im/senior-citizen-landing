@@ -8,13 +8,31 @@
     text-align: right;
   }
   &__mainMenu{
-    display: block;
+    position: absolute;
+    width: 100%;
+    background: rgba(255,255,255,.65);
+    z-index: 100;
   }
   &__sendwich{
     text-transform: uppercase;
     color: #4a526a;
     line-height: 50px;
     font-size: 40px;
+  }
+  &__item{
+    display: block;
+    position: relative;
+    text-align: center;
+    line-height: 14px;
+    margin: 18px 0;    
+  }
+  &__link{
+    color: #4a526a;
+    margin: 5px 0;
+    font-weight: 500;
+    font-size: 13px;
+    text-transform: uppercase;
+    text-decoration: none;
   }
 }
 
@@ -44,11 +62,32 @@
 @media only screen and (min-width : 768px) {
 .header{
   &__mainMenu{
-    display: inline-block;
+    position: relative;
+    background: none;
   }
   &__sendwich{
     display: none;
   }
+  &__item{
+      display: inline-block;
+      &:after{
+        content: '';
+        position: absolute;
+        width: 1px;
+        height: 100%;
+        right: 0;
+        top: 0;
+        background: #4a536a;
+      }
+      &:last-child{
+        &:after{
+          display: none;
+        }
+      }
+    }
+    &__link{
+      padding: 0 15px;
+    }
 }
 
 
