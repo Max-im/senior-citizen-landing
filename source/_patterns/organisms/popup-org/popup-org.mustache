@@ -1,24 +1,58 @@
-<form id="momentPopup" class="white-popup-block mfp-hide">
-  <h1>Form</h1>
-  <fieldset style="border:0;">
-    <p>Lightbox has an option to automatically focus on the first input. It's strongly recommended to use <code>inline</code> popup type for lightboxes with form instead of <code>ajax</code> (to keep entered data if the user accidentally refreshed the page).</p>
-    <ol>
-      <li>
-        <label for="name">Name</label>
-        <input id="name" name="name" placeholder="Name" required="" type="text">
-      </li>
-      <li>
-        <label for="email">Email</label>
-        <input id="email" name="email" placeholder="example@domain.com" required="" type="email">
-      </li>
-      <li>
-        <label for="phone">Phone</label>
-        <input id="phone" name="phone" placeholder="Eg. +447500000000" required="" type="tel">
-      </li>
-      <li>
-        <label for="textarea">Textarea</label><br>
-        <textarea id="textarea">Try to resize me to see how popup CSS-based resizing works.</textarea>
-      </li>
-    </ol>
-  </fieldset>
+<form 
+  id="momentPopup" 
+  class="container popup__moment white-popup-block mfp-hide">
+
+  <div class="container_inner">
+    {{#title-popup}}
+      {{> molecules-title-ml}}
+    {{/title-popup}}
+    
+    <div class="popup__momentContent">
+       <div class="popup__photoPickerWrap">
+          
+          <div class="popup__photoPicker">
+            <img 
+              class="popup__pickerImg"
+              src="../../../images/icons/folderIcon.png" 
+              alt="folder">
+            <input type="file" class="popup__photoPicker_inner">
+          </div>
+          
+          <ul class="popup__thumbnailList">
+            {{#list-thumb}}
+              <li class="popup__thumbnaiItem">
+                <img src="{{src}}" alt="thumbnail">
+              </li>
+            {{/list-thumb}}
+          </ul>          
+
+       </div> {{!-- popup__photoPickerWrap --}}
+
+       <div class="popup__inputWrap">
+        <input 
+          type="text" 
+          name="popup__momentText" 
+          placeholder="U berchrift moment" 
+          class="popup__momentsInp popup__momentText"
+          id="popup__momentText">
+         
+        <textarea 
+          class="popup__momentsInp popup__momentTextarea"
+          placeholder="Lorem ipsum dolor sit amet" 
+          name="popup__momentTextarea" 
+          id="popup__momentTextarea" 
+          cols="30" 
+          rows="10">
+        </textarea>
+
+        <button type="submit" class="popup__submit">
+          {{#submit}}
+            {{> atoms-footer-btn}}
+          {{/submit}}
+        </button>
+       </div>
+    </div>
+
+  </div>
+
 </form>

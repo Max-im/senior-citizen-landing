@@ -64,6 +64,8 @@
   }
   &__btnItem{
     font-size: 0;  
+    background: rgba(255,255,255,.6);
+    box-sizing: border-box;
     border: 2px solid #2e3a54;
     padding: 10px 0;
     text-align: center;

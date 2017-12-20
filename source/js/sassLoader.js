@@ -9,3 +9,4 @@ import '../css/sass/flowersBlock.scss';
 import '../css/sass/mailBlock.scss';
 import '../css/sass/footerBlock.scss';
 import '../css/sass/footerBottomBlock.scss';
+import '../css/sass/popup.scss';
