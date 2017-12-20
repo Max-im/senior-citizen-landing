@@ -1,5 +1,4 @@
 .moment{
-  margin: 60px 0 0 0;
   padding: 65px 0 45px 0;
   background: #fff;
   &__img{
@@ -42,7 +41,7 @@
   position: absolute;
   cursor: pointer;
   text-align: center;
-  z-index: 1100;
+  z-index: 500;
   top: 270px;
 }
 

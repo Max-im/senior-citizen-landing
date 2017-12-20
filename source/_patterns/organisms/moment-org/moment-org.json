@@ -121,7 +121,8 @@
     "class": "about__mehrItem mehr"
   },
   "btn": {
-    "tag": "button",
+    "tag": "a",
+    "modify": "href='#momentPopup'",
     "text": "einen moment beschriben",
     "class": "btn moment__btn"
   }

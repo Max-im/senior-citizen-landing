@@ -1,4 +1,5 @@
-
+import '../../node_modules/slick-carousel/slick/slick.scss';
+import '../../node_modules/magnific-popup/dist/magnific-popup.css';
 import '../css/sass/common.scss';
 import '../css/sass/headerBlock.scss';
 import '../css/sass/aboutBlock.scss';

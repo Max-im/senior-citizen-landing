@@ -259,7 +259,7 @@
         }
       }
     ],
-     "mehr": {
+    "mehr": {
       "alt": "icon",
       "src": "../../../images/icons/mehrIcon.png",
       "tag": "span",
@@ -267,7 +267,8 @@
       "class": "about__mehrItem mehr"
     },
     "btn": {
-      "tag": "button",
+      "tag": "a",
+      "modify": "href='#momentPopup'",
       "text": "einen moment beschriben",
       "class": "btn moment__btn"
     }

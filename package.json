@@ -10,6 +10,7 @@
     "event-hooks-webpack-plugin": "^1.0.0",
     "globby": "^6.1.0",
     "jquery": "^3.2.1",
+    "magnific-popup": "^1.1.0",
     "patternlab-node": "^2.11.0",
     "slick-carousel": "^1.8.1",
     "styleguidekit-assets-default": "^3.5.0",
