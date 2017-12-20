@@ -1,3 +1,166 @@
+# __SENIOR-CITIZEN-Page__
+
+
+
+## __App info:__
+| Name        | SENIOR-CITIZEN-Page |
+| ----------------- | ----------------- |
+| Description   | landing page using patternLab   |
+| Start date    | 14.12.2017  |
+| Version     | 0.0.1       |
+
+
+
+
+
+## __SetUp the app__
+ - Download this repo:
+  `git clone https://github.com/Max-im/senior-citizen-landing`
+ - Go to the project directory:
+  `cd senior-citizen-landing`
+ - Install all App dependencies:
+  `npm i`
+ 
+
+
+
+
+## __Run the App__
+ - for start the project in develop mode:   
+  `npm run patternlab:serve`
+ 
+
+
+
+
+
+## __Technologies:__
+- webpack ![webpack][webpackImg] / patternLab ![pattern][patternImg];
+ - ES6 ![ES6][ES6Img];
+ - jQuery ![jQuery][jQueryImg] / slick-carousel / magnific-popup;
+ - Mustashe ![mustache][mustacheImg] ;
+ - HTML5 ![HTML][HTMLImg] / BEM ![bem][bemImg] / OpenGraph ![openGraph][openGraphImg] / Schema ![schema][schemaImg];
+ - Sass (Scss) ![sass][sassImg] / CSS3 ![CSS3][cssImg] / mobile-first ![mobile][mobileImg];
+
+
+
+
+
+## __Schedule:__
+| Num   | Action                                                    | Hours |
+| ----: | --------------------------------------------------------  | ----: |
+| 1.    | Consider the project, create repo                         | 2     |
+| 1.    | Environment init, structure the project                   | 4     |
+| 1.    | Prepare assets for the projects                           | 2     |
+| 1.    | Create Header organism                                   | 4     |
+| 1.    | Create About organism                                    | 5     |
+| 1.    | Create Photos organism                                | 1     |
+| 1.    | Create Moments organism                                | 2     |
+| 1.    | Create Flowers organism                                | 3     |
+| 1.    | Create Mail organism                                | 1     |
+| 1.    | Create Footer organism                                   | 3     |
+| 1.    | Create Popup organism                                   | 3     |
+| 1.    | Code review, refactoring                                  | 4     |
+| 1.    | Add microdata, correct readme                             | 1     |
+| 1.    | Deploy                                                    | 1     |
+|       | TOTAL                                                     | 36  |
+
+
+
+
+## __About Author__
+ - author:  Maxim Pozhidaev <pogidaevmo@gmail.com>
+ - [AuthorPage]
+ - phone: __+38 (050) 77-23-169__
+ - skype: __Pogidaev_mo__
+ - social: [![facebook][fbImg]][myFb] [![linkedIn][inImg]][myIn] [![vk][vkImg]][myVk]
+
+
+
+
+
+
+
+[AuthorPage]: https://max-im.github.io/
+[Portfolio]: https://max-im.github.io/portfolio/
+
+
+[myFB]: https://facebook.com/max.pozhidaev.7
+[myIn]: https://www.linkedin.com/in/maxim-pozhidaev-16726811a
+[myVk]: https://m.vk.com/id8889814
+
+
+[fbImg]: https://github.com/Max-im/webpack-start-tmpl/blob/master/icons/facebook.png?raw=true
+[inImg]: https://github.com/Max-im/webpack-start-tmpl/blob/master/icons/linkedin.png?raw=true
+[vkImg]: https://github.com/Max-im/webpack-start-tmpl/blob/master/icons/vk.png?raw=true
+
+
+[cliImg]: https://github.com/Max-im/webpack-start-tmpl/blob/master/icons/cli.png?raw=true
+[webpackImg]: https://github.com/Max-im/webpack-start-tmpl/blob/master/icons/webpack.png?raw=true
+[gulpImg]: https://github.com/Max-im/webpack-start-tmpl/blob/master/icons/gulp.png?raw=true
+[routerImg]: https://github.com/Max-im/webpack-start-tmpl/blob/master/icons/router.png?raw=true
+
+
+[angularImg]: https://github.com/Max-im/webpack-start-tmpl/blob/master/icons/angular.png?raw=true
+[reactImg]: https://github.com/Max-im/webpack-start-tmpl/blob/master/icons/react.png?raw=true
+[reduxImg]: https://github.com/Max-im/webpack-start-tmpl/blob/master/icons/redux.png?raw=true
+[vueImg]: https://github.com/Max-im/webpack-start-tmpl/blob/master/icons/vue.png?raw=true
+[ES6Img]: https://github.com/Max-im/webpack-start-tmpl/blob/master/icons/js.png?raw=true
+[patternImg]: https://github.com/Max-im/webpack-start-tmpl/blob/master/icons/patternLab.png?raw=true
+
+
+[jQueryImg]: https://github.com/Max-im/webpack-start-tmpl/blob/master/icons/jquery.png?raw=true
+[rxImg]: https://github.com/Max-im/webpack-start-tmpl/blob/master/icons/rxjs.png?raw=true
+[lodashImg]: https://github.com/Max-im/webpack-start-tmpl/blob/master/icons/lodash.png?raw=true
+[momentImg]: https://github.com/Max-im/webpack-start-tmpl/blob/master/icons/moment.png?raw=true
+
+
+[mustacheImg]: https://github.com/Max-im/webpack-start-tmpl/blob/master/icons/mustache.png?raw=true
+[handlebarsImg]: https://github.com/Max-im/webpack-start-tmpl/blob/master/icons/handlebars.png?raw=true
+
+
+
+[HTMLImg]: https://github.com/Max-im/webpack-start-tmpl/blob/master/icons/html.png?raw=true
+[bemImg]: https://github.com/Max-im/webpack-start-tmpl/blob/master/icons/bem.png?raw=true
+[openGraphImg]: https://github.com/Max-im/webpack-start-tmpl/blob/master/icons/openGraph.png?raw=true
+[schemaImg]: https://github.com/Max-im/webpack-start-tmpl/blob/master/icons/schema.png?raw=true
+
+
+[bootstrapImg]: https://github.com/Max-im/webpack-start-tmpl/blob/master/icons/bootstrap.png?raw=true
+[foundationImg]: https://github.com/Max-im/webpack-start-tmpl/blob/master/icons/foundation.png?raw=true
+[materialiseImg]: https://github.com/Max-im/webpack-start-tmpl/blob/master/icons/materialize.png?raw=true
+[semanticImg]: https://github.com/Max-im/webpack-start-tmpl/blob/master/icons/semantic.png?raw=true
+
+
+
+[stylusImg]: https://github.com/Max-im/webpack-start-tmpl/blob/master/icons/stylus.png?raw=true
+[sassImg]: https://github.com/Max-im/webpack-start-tmpl/blob/master/icons/sass.png?raw=true
+[cssImg]: https://github.com/Max-im/webpack-start-tmpl/blob/master/icons/css.png?raw=true
+[mobileImg]: https://github.com/Max-im/webpack-start-tmpl/blob/master/icons/mobile.png?raw=true
+
+
+[canvasImg]: https://github.com/Max-im/webpack-start-tmpl/blob/master/icons/canvas.png?raw=true
+[d3Img]: https://github.com/Max-im/webpack-start-tmpl/blob/master/icons/d3.png?raw=true
+
+
+[nodeImg]: https://github.com/Max-im/webpack-start-tmpl/blob/master/icons/node.png?raw=true
+[PHPImg]: https://github.com/Max-im/webpack-start-tmpl/blob/master/icons/php.png?raw=true
+[BaaSImg]: https://github.com/Max-im/webpack-start-tmpl/blob/master/icons/baas.png?raw=true
+[firebaseImg]: https://github.com/Max-im/webpack-start-tmpl/blob/master/icons/firebase.png?raw=true
+
+
+[mongoDBImg]: https://github.com/Max-im/webpack-start-tmpl/blob/master/icons/mongoDB.png?raw=true
+[SQLImg]: https://github.com/Max-im/webpack-start-tmpl/blob/master/icons/sql.png?raw=true
+
+
+
+[karmaImg]: https://github.com/Max-im/webpack-start-tmpl/blob/master/icons/karma.png?raw=true
+[mochaImg]: https://github.com/Max-im/webpack-start-tmpl/blob/master/icons/mocha.png?raw=true
+[jasmineImg]: https://github.com/Max-im/webpack-start-tmpl/blob/master/icons/jasmine.png?raw=true
+[phantomImg]: https://github.com/Max-im/webpack-start-tmpl/blob/master/icons/phantom.png?raw=true
+
+
+
 [![Apache V2 License](http://img.shields.io/badge/license-Apache%20V2-blue.svg)](https://github.com/Comcast/patternlab-edition-node-webpack/blob/master/LICENSE)
 
 

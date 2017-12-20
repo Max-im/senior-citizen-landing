@@ -431,8 +431,54 @@
       {"menuText": "AGB Widerrufsbelehrung", "link": "#" },
       {"menuText": "Quellennachweis", "link": "#" }
     ] 
+  },
+  "popup": {
+    "title-popup":{
+      "img": {
+        "alt": "icon",
+        "src": "../../../images/icons/starIcon.png",
+        "class": "title__icon"
+      },
+      "text":{
+        "tag": "h3",
+        "class": "title__text",
+        "text": "Unsere shonesten Momente"
+      }
+    },
+    "list-thumb": [
+      {
+        "src": "../../../images/photos/thumb0.jpg"
+      },
+      {
+        "src": "../../../images/photos/thumb1.jpg"
+      },
+      {
+        "src": "../../../images/photos/thumb2.jpg"
+      },
+      {
+        "src": "../../../images/photos/thumb3.jpg"
+      },
+      {
+        "src": "../../../images/photos/thumb4.jpg"
+      },
+      {
+        "src": "../../../images/photos/thumb5.jpg"
+      },
+      {
+        "src": "../../../images/photos/thumb6.jpg"
+      },
+      {
+        "src": "../../../images/photos/thumb7.jpg"
+      }
+    ],
+    "submit": {
+      "alt": "envelop",
+      "src": "../../../images/icons/envBtn.png",
+      "text": "moment abschicken",
+      "imgClass": "popup__submitImg",
+      "textClass": "popup__submitText"
+    }
   }
-
 
 
 
