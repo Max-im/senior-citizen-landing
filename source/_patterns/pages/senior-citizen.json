@@ -14,7 +14,7 @@
     "about-org-content": {
       "about-img": {
         "alt": "Max Mustermann",
-        "src": "../../../images/photos/avatar.jpg",
+        "src": "/images/photos/avatar.jpg",
         "class": "about__img"
       },
 
@@ -28,16 +28,16 @@
         "about-list": [
           { 
             "text": "23.12.1985 <span class='about__listModify'> - Berlin</span>", 
-            "icon": "../../../images/icons/sun.png"
+            "icon": "/images/icons/sun.png"
           }, 
           { 
             "text": "10.11.2015 <span class='about__listModify'> - Muhlheim</span>", 
-            "icon": "../../../images/icons/month.png" 
+            "icon": "/images/icons/month.png" 
           }, 
           {
             "xlClass": "about__listModify_rev",
             "text": "Hamburg", 
-            "icon": "../../../images/icons/location.png" 
+            "icon": "/images/icons/location.png" 
           }
         ] 
       }
@@ -45,7 +45,7 @@
     "about-org-text": {
       "img": {
         "alt": "icon",
-        "src": "../../../images/icons/talk.png",
+        "src": "/images/icons/talk.png",
         "class": "title__icon"
       },
       "text":{
@@ -75,7 +75,7 @@
 
     "mehr": {
       "alt": "icon",
-      "src": "../../../images/icons/mehrIcon.png",
+      "src": "/images/icons/mehrIcon.png",
       "tag": "span",
       "text": "mehr",
       "class": "about__mehrItem mehr"
@@ -85,7 +85,7 @@
     "photo-org": {
       "img": {
         "alt": "icon",
-        "src": "../../../images/icons/photoIcon.png",
+        "src": "/images/icons/photoIcon.png",
         "class": "title__icon"
       },
       "text":{
@@ -96,49 +96,49 @@
       "list": [
         {
           "alt": "photoItem",
-          "src": "../../../images/photos/photoItem1.jpg",
+          "src": "/images/photos/photoItem1.jpg",
           "class": "photoBlock__img"
         },
         {
           "alt": "photoItem",
-          "src": "../../../images/photos/photoItem2.jpg",
+          "src": "/images/photos/photoItem2.jpg",
           "class": "photoBlock__img"
         },
         {
           "alt": "photoItem",
-          "src": "../../../images/photos/photoItem3.jpg",
+          "src": "/images/photos/photoItem3.jpg",
           "class": "photoBlock__img"
         },
         {
           "alt": "photoItem",
-          "src": "../../../images/photos/photoItem4.jpg",
+          "src": "/images/photos/photoItem4.jpg",
           "class": "photoBlock__img"
         },
         {
           "alt": "photoItem",
-          "src": "../../../images/photos/photoItem5.jpg",
+          "src": "/images/photos/photoItem5.jpg",
           "class": "photoBlock__img"
         },
         {
           "alt": "photoItem",
-          "src": "../../../images/photos/photoItem6.jpg",
+          "src": "/images/photos/photoItem6.jpg",
           "class": "photoBlock__img"
         },
         {
           "alt": "photoItem",
-          "src": "../../../images/photos/photoItem7.jpg",
+          "src": "/images/photos/photoItem7.jpg",
           "class": "photoBlock__img mehrTarget"
         },
         {
           "alt": "photoItem",
-          "src": "../../../images/photos/photoItem8.jpg",
+          "src": "/images/photos/photoItem8.jpg",
           "class": "photoBlock__img mehrTarget"
         },
       ]
     },
     "mehr": {
       "alt": "icon",
-      "src": "../../../images/icons/mehrIcon.png",
+      "src": "/images/icons/mehrIcon.png",
       "tag": "span",
       "text": "mehr",
       "class": "about__mehrItem mehr"
@@ -148,7 +148,7 @@
     "moment-org": {
       "img": {
         "alt": "icon",
-        "src": "../../../images/icons/starIcon.png",
+        "src": "/images/icons/starIcon.png",
         "class": "title__icon"
       },
       "text":{
@@ -160,7 +160,7 @@
     "carousel": [
       {
         "alt": "moment",
-        "src": "../../../images/photos/moment.jpg",
+        "src": "/images/photos/moment.jpg",
         "class": "moment__img",
         "title":{
           "tag": "h4",
@@ -180,7 +180,7 @@
       },
       {
         "alt": "moment",
-        "src": "../../../images/photos/moment.jpg",
+        "src": "/images/photos/moment.jpg",
         "class": "moment__img",
         "title":{
           "tag": "h4",
@@ -200,7 +200,7 @@
       },
       {
         "alt": "moment",
-        "src": "../../../images/photos/moment.jpg",
+        "src": "/images/photos/moment.jpg",
         "class": "moment__img",
         "title":{
           "tag": "h4",
@@ -220,7 +220,7 @@
       },
       {
         "alt": "moment",
-        "src": "../../../images/photos/moment.jpg",
+        "src": "/images/photos/moment.jpg",
         "class": "moment__img",
         "title":{
           "tag": "h4",
@@ -240,7 +240,7 @@
       },
       {
         "alt": "moment",
-        "src": "../../../images/photos/moment.jpg",
+        "src": "/images/photos/moment.jpg",
         "class": "moment__img",
         "title":{
           "tag": "h4",
@@ -261,7 +261,7 @@
     ],
     "mehr": {
       "alt": "icon",
-      "src": "../../../images/icons/mehrIcon.png",
+      "src": "/images/icons/mehrIcon.png",
       "tag": "span",
       "text": "mehr",
       "class": "about__mehrItem mehr"
@@ -277,7 +277,7 @@
     "title-org": {
       "img": {
         "alt": "icon",
-        "src": "../../../images/icons/flowerIcon.png",
+        "src": "/images/icons/flowerIcon.png",
         "class": "title__icon"
       },
       "text":{
@@ -290,7 +290,7 @@
       {
         "img": {
           "alt": "flower",
-          "src": "../../../images/photos/flower1.jpg",
+          "src": "/images/photos/flower1.jpg",
           "class": "flowers__img"
         },
         "list": [
@@ -304,7 +304,7 @@
       {
         "img": {
           "alt": "flower",
-          "src": "../../../images/photos/flower2.jpg",
+          "src": "/images/photos/flower2.jpg",
           "class": "flowers__img"
         },
         "list": [
@@ -318,7 +318,7 @@
       {
         "img": {
           "alt": "flower",
-          "src": "../../../images/photos/flower3.jpg",
+          "src": "/images/photos/flower3.jpg",
           "class": "flowers__img"
         },
         "list": [
@@ -335,7 +335,7 @@
     "mail-title": {
       "img": {
         "alt": "icon",
-        "src": "../../../images/icons/heartIcon.png",
+        "src": "/images/icons/heartIcon.png",
         "class": "title__icon"
       },
       "text":{
@@ -346,7 +346,7 @@
     },
     "mail-icon": {
       "alt": "envelop",
-      "src": "../../../images/icons/envelopIcon.png",
+      "src": "/images/icons/envelopIcon.png",
       "class": "mail__img"
     },
     "mail-btn": {
@@ -361,7 +361,7 @@
     "logo": {
       "logo-img": {
         "alt": "logo",
-        "src": "../../../images/icons/logoWorld.png",
+        "src": "/images/icons/logoWorld.png",
         "class": "footer__logo"
       },
       "logo-text": {
@@ -374,7 +374,7 @@
       "list": [
         {
           "href": "#",
-          "src": "../../../images/icons/soc-fb.png",
+          "src": "/images/icons/soc-fb.png",
           "alt": "fb",
           "wrapClass": "footer__socBtnWrap",
           "imgClass": "footer__socImg",
@@ -386,7 +386,7 @@
         },
         {
           "href": "#",
-          "src": "../../../images/icons/soc-mail.png",
+          "src": "/images/icons/soc-mail.png",
           "alt": "mail",
           "wrapClass": "footer__socBtnWrap",
           "imgClass": "footer__socImg",
@@ -402,21 +402,21 @@
       "list": [
         {
           "alt": "icon",
-          "src": "../../../images/icons/penBtn.png",
+          "src": "/images/icons/penBtn.png",
           "imgClass": "footer__btnImg",
           "textClass": "footer__btnText",
           "text": "Selbst eine Trauerseite gestalten"
         },
         {
           "alt": "icon",
-          "src": "../../../images/icons/envBtn.png",
+          "src": "/images/icons/envBtn.png",
           "imgClass": "footer__btnImg",
           "textClass": "footer__btnText",
           "text": "kontakt zum verfasser aufnehmen"
         },
         {
           "alt": "icon",
-          "src": "../../../images/icons/flagBtn.png",
+          "src": "/images/icons/flagBtn.png",
           "imgClass": "footer__btnImg",
           "textClass": "footer__btnText",
           "text": "missbrauch melden"
@@ -436,7 +436,7 @@
     "title-popup":{
       "img": {
         "alt": "icon",
-        "src": "../../../images/icons/starIcon.png",
+        "src": "/images/icons/starIcon.png",
         "class": "title__icon"
       },
       "text":{
@@ -447,33 +447,33 @@
     },
     "list-thumb": [
       {
-        "src": "../../../images/photos/thumb0.jpg"
+        "src": "/images/photos/thumb0.jpg"
       },
       {
-        "src": "../../../images/photos/thumb1.jpg"
+        "src": "/images/photos/thumb1.jpg"
       },
       {
-        "src": "../../../images/photos/thumb2.jpg"
+        "src": "/images/photos/thumb2.jpg"
       },
       {
-        "src": "../../../images/photos/thumb3.jpg"
+        "src": "/images/photos/thumb3.jpg"
       },
       {
-        "src": "../../../images/photos/thumb4.jpg"
+        "src": "/images/photos/thumb4.jpg"
       },
       {
-        "src": "../../../images/photos/thumb5.jpg"
+        "src": "/images/photos/thumb5.jpg"
       },
       {
-        "src": "../../../images/photos/thumb6.jpg"
+        "src": "/images/photos/thumb6.jpg"
       },
       {
-        "src": "../../../images/photos/thumb7.jpg"
+        "src": "/images/photos/thumb7.jpg"
       }
     ],
     "submit": {
       "alt": "envelop",
-      "src": "../../../images/icons/envBtn.png",
+      "src": "/images/icons/envBtn.png",
       "text": "moment abschicken",
       "imgClass": "popup__submitImg",
       "textClass": "popup__submitText"

@@ -7,6 +7,22 @@
     display: block;
     margin: 25px auto 0 auto;
   }
+  &__titleWrap{
+    position: relative;
+  }
+  &__plus{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border: 2px solid #cad0dc;
+    background: #fff;
+    font-size: 25px;
+    line-height: 40px;
+    text-align: center;
+    color: #2e3a54;
+    right: 0;
+    bottom: -18px;
+  }
   &__title{
     color: #2e3a54;
     font-size: 25px;
@@ -90,6 +106,9 @@
       display: inline-block;
       vertical-align: top;
       margin: 0 35px 0 0;
+    }
+    &__plus{
+      display: none;
     }
     &__img{
       width: 100%;

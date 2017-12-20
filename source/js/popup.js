@@ -7,6 +7,11 @@ const popupFunc = () => {
     type: 'inline',
     preloader: false,
   });
+
+   $('.moment__plus').magnificPopup({
+    type: 'inline',
+    preloader: false,
+  });
 }
 
 

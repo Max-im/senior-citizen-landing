@@ -28,6 +28,9 @@
 ## __Run the App__
  - for start the project in develop mode:   
   `npm run patternlab:serve`
+ - for building the project:
+  `npm run patternlab:build`
+  
  
 
 
@@ -39,7 +42,7 @@
  - ES6 ![ES6][ES6Img];
  - jQuery ![jQuery][jQueryImg] / slick-carousel / magnific-popup;
  - Mustashe ![mustache][mustacheImg] ;
- - HTML5 ![HTML][HTMLImg] / BEM ![bem][bemImg] / OpenGraph ![openGraph][openGraphImg] / Schema ![schema][schemaImg];
+ - HTML5 ![HTML][HTMLImg] / BEM ![bem][bemImg] / OpenGraph ![openGraph][openGraphImg];
  - Sass (Scss) ![sass][sassImg] / CSS3 ![CSS3][cssImg] / mobile-first ![mobile][mobileImg];
 
 

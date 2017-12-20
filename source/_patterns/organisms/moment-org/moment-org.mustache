@@ -1,8 +1,12 @@
 <section class="moment section">
   <div class="container_inner">
-    {{#moment-org}}
-      {{> molecules-title-ml}}
-    {{/moment-org}}
+    
+    <div class="moment__titleWrap">
+      {{#moment-org}}
+        {{> molecules-title-ml}}
+      {{/moment-org}}
+      <a href="#momentPopup" class="moment__plus">+</a>
+    </div>
 
     <div 
       class="moment__carousel">
