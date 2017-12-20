@@ -40,6 +40,9 @@
 }
 
 
+
+
+
 .btn{
   border-radius: 0;
   border: 2px solid #cad0dc;
@@ -72,6 +75,37 @@
     }
   }
 }
+
+
+
+.section{
+  box-shadow: 3px 3px 15px 3px rgba(42,46,57,.51);
+}
+
+
+
+
+.container{
+  width: 100%;
+  max-width: 1325px;
+  min-width: 480px;
+  margin: 0 auto;
+  &_inner{
+    padding: 0 25px;
+    width: 100%;
+    max-width: 1160px;
+    min-width: 480px;
+    margin: 0 auto;
+    box-sizing: border-box;  
+  }
+}
+
+.hide{
+  display: none !important;
+}
+
+
+
 
 
 
@@ -135,6 +169,7 @@
 }
 
 
+
 }
 
 
@@ -144,7 +179,13 @@
  /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
 
+.inner{
+  padding: 0px;
+}
 
 
 
 }
+
+
+

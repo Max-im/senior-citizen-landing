@@ -61,10 +61,10 @@
     box-shadow: 3px 3px 15px 5px rgba(42,46,57,.51); 
     &_text{
       margin: 70px 0 0 0;
-      padding: 50px 25px 35px 25px;
+      padding: 50px 0px 35px 0px;
     }
     &_info{
-      padding: 0 25px;
+      padding: 0px;
       position: relative;
     }
   }
@@ -181,14 +181,14 @@
     }
   }
   &__contentWrap{
-    padding: 0 80px 0 80px;
+    padding: 0;
     background: #fff;
     box-shadow: 3px 3px 15px 5px rgba(42,46,57,.51); 
     &_text{
-      padding: 50px 80px 35px 80px;
+      padding: 50px 0 35px 0px;
     }
     &_info{
-      padding: 0px 80px 0px 80px;
+      padding: 0px;
     }
   }
   &__mehrWrap{
